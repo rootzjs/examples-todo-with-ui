@@ -7,7 +7,7 @@ button {
     border: none;
     height: 7vmin;
     color: #FFF;
-    font-size: 25px;
+    font-size: 3vmin;
     flex-basis: 100%;
     background-color: #6B7E8D;
 }
@@ -48,4 +48,15 @@ input[type="checkbox"]:focus {
 
 .todo-container {
     width: 80vmin;
+}
+
+@media only screen and (max-width: 600px) {
+    .todo-container {
+        width: 90vmin;
+    }
+
+    button {
+        height: 12vmin;
+        font-size: 5vmin;
+    }
 }
