@@ -91,11 +91,11 @@
 
 @media only screen and (max-width: 600px) {
         .todo-list-container {
-                height: 70vh;
+                height: 60vh;
                 margin: 7px 0;
         }
         .todo {
-                font-size: 5vmin;
+                font-size: 4.5vmin;
                 color: #546A7B;
         }
 }

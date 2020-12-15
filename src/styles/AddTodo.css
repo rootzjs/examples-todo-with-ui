@@ -17,6 +17,6 @@
 @media only screen and (max-width: 600px) {
         .add-todo-input {
                 height: 12vmin;
-                font-size: 5vmin;
+                font-size: 4.5vmin;
         }
 }
